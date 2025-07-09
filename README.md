@@ -1,20 +1,3 @@
-postgres-schema-diff/
-├── src/
-│ ├── schema_reader/ # Pulls schema from PostgreSQL DB
-│ ├── file_parser/ # Parses .sql files into in-memory objects
-│ ├── comparator/ # Compares DB vs files and generates a diff
-│ ├── script_generator/ # Generates migration SQL
-│ └── cli.py # Command-line entry point
-├── tests/
-│ └── **init**.py # Test suite placeholder
-├── example_project/
-│ └── db_scripts/ # Sample .sql schema for testing
-├── requirements.txt # Dependencies
-├── README.md # Project description
-└── LICENSE # License file
-
-# README.md
-
 # PostgreSQL Schema Diff Tool
 
 A lightweight command-line tool that compares a live PostgreSQL database schema against a set of SQL files in version control and generates SQL scripts to reconcile the differences.
